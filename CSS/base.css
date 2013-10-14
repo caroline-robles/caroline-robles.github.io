@@ -3,25 +3,25 @@
 }
 
 h1 {
-    color: #ff4a00;
+    color: red;
     font-size: 40px;
 }
 
 h2 {
     font-size: 22px;
-    color: #0021a5;
+    color: blue;
 }
 
 p {
-    font-family: arial, helvetica, sans-serif;
-    font size: 16px;
+    font-family: Georgia, Baskerville, Serif; 
+    font-size: 16px;
     line-height: 24px;
-}
-
+}   
+    
 img {
-    border: 5px solid #cccccc;
-    margin: 0 5% 0 5%;
-    padding: 1%; /* TRouBLe */
-    width: 90%;
+    border: 5px solid #cccccc
+    margin: 0 5% 0 5% 
+    padding: 1%
+    width: 90%
 }
 
