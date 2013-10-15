@@ -8,23 +8,27 @@ body{
     font-size: 16px;
     line-height: 24px;
     font-family: georgia, baskerville, serif;  
-    background: #FF8A34
+    background: #FFF4E3
 }
     
 p {
     margin-bottom: 16px;
 }   
+.left {
+	padding-right:1px;
+	float:left;
+	}
 .right {
 	padding-left:5px;
 	float:right;
 	}
 header {
-    background-color: #0AA2B2; 
-    color: #FFB680;
+    background: #F0C url(img/header.jpg) repeat-x scroll 0 0; 
+    color: #FFFFFF;
     height: 110px;
-    border: 2px solid #80F3FF;
-    padding: 30px; /* TRouBLe */
-    margin: 10px;
+    border: 2px solid #000000;
+    padding: 20px; /* TRouBLe */
+    margin: 0px;
 }
 
 header h1 {
@@ -57,7 +61,7 @@ header a:focus{}
 article{
     clear: both;
     padding: 30px;
-    background-color: #0AA2B2;
+    background-color: #7F7F7D;
     border: 2px solid #000000;
     margin: 10px;
 }
