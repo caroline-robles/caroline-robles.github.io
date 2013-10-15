@@ -7,26 +7,31 @@
 body{
     font-size: 16px;
     line-height: 24px;
-    font-family: georgia, baskerville, serif;
+    font-family: georgia, baskerville, serif;  
+    background: #FF8A34
 }
     
 p {
     margin-bottom: 16px;
 }   
-
+.right {
+	padding-left:5px;
+	float:right;
+	}
 header {
-    background-color: #009999; 
-    color: #CC6600;
-    height: 80px;
-    border: 2px solid #000000;
+    background-color: #0AA2B2; 
+    color: #FFB680;
+    height: 110px;
+    border: 2px solid #80F3FF;
     padding: 30px; /* TRouBLe */
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 header h1 {
     float: left;
+    text-align: center;
     font-family: georgia, baskerville, serif;
-    font-size: 48px;  
+    font-size: 56px;  
 }
 
 header nav {
@@ -34,7 +39,7 @@ header nav {
     margin-top: 15px;
 }
 header a {
-        color:#CC6600;
+        color:#FFB680;
         margin-right: 40px;
         text-decoration: none;
 }
@@ -52,23 +57,31 @@ header a:focus{}
 article{
     clear: both;
     padding: 30px;
-    background-color: #009999;
+    background-color: #0AA2B2;
     border: 2px solid #000000;
+    margin: 10px;
 }
 
 article h1 {
-    font-size: 28px;
+    font-size: 40px;
+    line-height: 48px;
 }
 
 article h2 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 40px;
 }
 
-footer{
-    padding: 0 30px 0 30px;
+article h3{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+footer {
     font-size: 12px;
+    text-align: center;
     padding: 0 10px 0 10px;
-    background-color: #009999;
-    border: 2px solid #000000;
+    background-color: #0AA2B2;
+    border: 2px solid #80F3FF;
+    margin: 10px;
 }
