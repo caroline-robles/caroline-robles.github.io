@@ -8,27 +8,28 @@ body{
     font-size: 16px;
     line-height: 24px;
     font-family: georgia, baskerville, serif;  
-    background: #FFF4E3
+    background: #661408 
 }
     
 p {
     margin-bottom: 16px;
 }   
 .left {
-	padding-right:1px;
+	padding-right:5px;
 	float:left;
 	}
 .right {
 	padding-left:5px;
 	float:right;
 	}
+
 header {
-    background: #F0C url(img/header.jpg) repeat-x scroll 0 0; 
+    background-color: #CF796C;
     color: #FFFFFF;
-    height: 110px;
-    border: 2px solid #000000;
-    padding: 20px; /* TRouBLe */
-    margin: 0px;
+    height: 200px;
+    border: 10px solid #FFFDF1;
+    padding: 60px; /* TRouBLe */
+    margin: 10px;
 }
 
 header h1 {
@@ -39,8 +40,9 @@ header h1 {
 }
 
 header nav {
-    float: left;
-    margin-top: 15px;
+    float: center;
+    margin-top: 20px;
+    text-align: center;
 }
 header a {
         color:#FFB680;
@@ -58,34 +60,58 @@ header a:active {
 }
 header a:focus{}
 
+img {
+    padding: 3px;
+    border: 10px solid #FFFDF1;
+    margin: 10px;
+}
+
 article{
     clear: both;
     padding: 30px;
-    background-color: #7F7F7D;
-    border: 2px solid #000000;
-    margin: 10px;
+    background-color: #CF796C;
+    border: 10px solid #FFFDF1;
+    margin: 40px;
+    color: #ffb680
 }
 
 article h1 {
     font-size: 40px;
     line-height: 48px;
+    color: #730342;
 }
 
 article h2 {
     font-size: 32px;
     line-height: 40px;
+    color: #730342;
 }
 
 article h3{
     font-size: 24px;
     line-height: 32px;
 }
+a:link {
+    color:#FFF;
+    text-decoration: none;
+}      /* unvisited link */
+a:visited {
+    color:#FFF;
+}  /* visited link */
+a:hover {
+    color:#FFF;
+    text-decoration:underline;
+}  /* mouse over link */
+a:active {
+    color:#FFF;
+}
 
 footer {
     font-size: 12px;
+    color: #ffb680;
     text-align: center;
     padding: 0 10px 0 10px;
-    background-color: #0AA2B2;
-    border: 2px solid #80F3FF;
+    background-color: #CF796C;
+    border: 10px solid #FFFDF1;
     margin: 10px;
 }
