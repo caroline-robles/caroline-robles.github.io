@@ -33,10 +33,10 @@ header {
 }
 
 header h1 {
-    float: left;
+    float: center;
     text-align: center;
     font-family: georgia, baskerville, serif;
-    font-size: 56px;  
+    font-size: 64px;  
 }
 
 header nav {
@@ -76,8 +76,8 @@ article{
 }
 
 article h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 48px;
+    line-height: 56px;
     color: #730342;
 }
 
@@ -90,6 +90,12 @@ article h2 {
 article h3{
     font-size: 24px;
     line-height: 32px;
+}
+
+article h4{
+    font-size: 24px;
+    line-height: 32px;
+    text-align:center;
 }
 
 ul{
