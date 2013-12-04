@@ -158,7 +158,8 @@ footer {
         padding: 5%
     }
     article{
-    
+        text-align: center;
+        padding: 5%
     }
     p {
         text-align: center;
